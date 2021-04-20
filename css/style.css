@@ -50,6 +50,7 @@ header{
 	color: white;
 	padding-top: 24px;
 	padding-bottom: 28px;
+	padding-right: 70px;
 }
 .banner-text p{
 	font-size: 1.2rem;
@@ -172,9 +173,12 @@ header{
 	font-size: 16px;
 	padding: 30px 0px 45px;
 }
-.features-2 .features-2-items .features-2-text .features-3 span{
-	display: block;
+.features-2 .features-2-items .features-2-text .row .col-md-12 .img-t span{
 	font-weight: 600;
+	margin-left: 6px;
+}
+.features-2 .features-2-items .features-2-text .row .col-md-12 .img-t img{
+	width: 12px;
 }
 
 
@@ -191,16 +195,225 @@ header{
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: .1em;
+	margin-top: 52px;
 }
 .details .details-items h1{
+	font-size: 40px;
+	font-weight: 600;
+	color: black;
+	padding-top: 13px;
+	padding-bottom: 16px;
+}
+.details .details-items p{
+	margin-top: 20px;
+	color: #999999;
+	font-size: 16px;
+}
+
+
+.pricing{
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+.pricing-items{
+	text-align: center;
+}
+.pricing-items h6{
+	color: #008ed6;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .1em;
+}
+.pricing-items h1{
 	font-size: 40px;
 	font-weight: 600;
 	color: black;
 	padding-top: 24px;
 	padding-bottom: 28px;
 }
-.details .details-items p{
-	margin-top: 20px;
+.t-full{
+	margin-top: 70px;
+	text-align: center;
+}
+.t-1:hover .t-head h3{ 
+	color: #008ed6;
+}
+.t-1:hover .t-body{
+	background: #008ed6;
+	color: white;
+}
+.t-1:hover .t-foot button{
+	background: #008ed6;
+	color: white; 
+}
+.t-head{
+	border: 1px solid #e0e0e0;
+	padding: 30px 0px 24px;
+}
+.t-head h3{
+	font-size: 24px;
+	font-weight: 700;
+}
+.t-body{
+	border: 1px solid #e0e0e0;
+	padding: 46px 0px 40px;
+	border-top: none;
+}
+.t-body h2{
+	font-size: 72px;
+	font-weight: 600;
+	position: relative;
+}
+.t-body .d0{
+	font-size: 28px;
+	position: absolute;
+	left: 96px;
+	top: 13px;
+}
+.t-body .d50{
+	font-size: 28px;
+	position: absolute;
+	left: 78px;
+	top: 13px;
+}
+.t-body p{
+	font-size: 18px;
 	color: #999999;
+}
+.t-foot{
+	padding-bottom: 40px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 50px;
+	border: 1px solid #e0e0e0;
+	border-top: none;
+}
+.t-foot p{
+	font-size: 18px;
+	color: #999999;
+	font-weight: 400;
+}
+.t-foot p span{
+	color: #008ed6;
+}
+.t-foot button{
+	height: 44px;
+	width: 150px;
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	margin-top: 8px;
+	margin-bottom: 30px;
+}
+.t-foot button a{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+
+
+.contacts{
+	padding-top: 80px;
+	padding-bottom: 60px;
+	background: #ededed;
+	text-align: center;
+}
+.contacts-items .contacts-top{
+	text-align: center;
+}
+.contacts-items .contacts-top h6{
+	color: #008ed6;
 	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .1em;
+}
+.contacts-items .contacts-top h1{
+	font-size: 40px;
+	font-weight: 600;
+	color: black;
+	padding-top: 24px;
+	padding-bottom: 28px;
+}
+.phn{
+	margin-top: 42px;
+}
+.phn .phn1{
+	margin-bottom: 80px;
+}
+.phn .phn1 i{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.phn .phn1 p{
+	font-size: 18px;
+	color: #999999;
+	font-weight: 400;
+}
+.forms{
+	margin: 0px 300px;
+	padding: 30px;
+	padding-bottom: 26px;
+	background: black;
+	position: absolute;
+	z-index: 1!important;
+}
+.forms-item input{
+	margin: 10px;
+}
+.forms-item textarea{
+	margin: 10px;
+	padding: 22px 0px;
+}
+.forms-item .btn-3{
+	text-align: right;
+}
+.forms-item .btn-3 button{
+	height: 44px;
+	width: 150px;
+	color: white;
+	background: #008ed6;
+	border: none;
+	border-radius: 4px;
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+.maps{
+	
+	z-index: -99!important;
+}
+
+.footer{
+	background: black;
+	text-align: center;
+}
+.footer i{
+	font-size: 26px;
+	margin: 58px 10px 20px;
+	color: #444348;
+
+}
+.footer i:hover{
+	color: #008ed6;
+	cursor: alias;
+}
+.footer p{
+	padding: 0;
+	font-size: 14px;
+	font-weight: 600;
+	padding-bottom: 40px;
+	color: #444348;
+}
+.footer i:last-child{
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0px;
+	color: #444348;
 }
