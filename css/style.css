@@ -211,6 +211,110 @@ header{
 }
 
 
+
+.comment{
+	padding-top: 80px;
+	padding-bottom: 60px;
+	background: url(../img/pricing-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.comment-items{
+	text-align: center;
+}
+.comment-items h6{
+	color: #008ed6;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .1em;
+}
+.comment-items h1{
+	font-size: 40px;
+	font-weight: 600;
+	color: white;
+	padding-top: 24px;
+	padding-bottom: 28px;
+}
+.comment-1{
+	color: white;
+	padding-top: 90px;
+	padding-right: 26px;
+	padding-bottom: 110px;
+}
+.comment-1 p{
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+.comment-1 h4{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+}
+.comment-1 h6{
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	line-height: 13px;
+}
+
+
+
+
+.like{
+	background: black;
+}
+.like-items{
+	padding: 60px 0px;
+}
+.like-items h1{
+	font-size: 36px;
+	color: #efeff0;
+}
+.like-items h1 span{
+	font-weight: 700;
+	color: white;
+}
+.btn-4 .btn-1{
+	height: 44px;
+	width: 150px;
+	color: white;
+	background: #008ed6;
+	border: none;
+	border-radius: 4px;
+	margin-right: 18px;
+}
+.btn-4 .btn-2{
+	height: 44px;
+	width: 150px;
+	color: white;
+	background: transparent;
+	border: 1px solid white;
+	border-radius: 4px;
+	margin-right: 18px;
+	position: relative;
+}
+.btn-4 a{
+	text-decoration: none;
+	color: white;
+}
+.btn-4 .btn-1:hover{
+	color: rgba(255, 255, 255, 1);
+  	box-shadow: 0 5px 15px rgb(0,142,214, .4);
+}
+.btn-4 .btn-2:hover{
+	background: #008ed6;
+	border: none;
+	color: rgba(255, 255, 255, 1);
+  	box-shadow: 0 5px 15px rgb(0,142,214, .4);
+}
+
+
+
 .pricing{
 	padding-top: 80px;
 	padding-bottom: 60px;
@@ -320,6 +424,8 @@ header{
 	padding-bottom: 60px;
 	background: #ededed;
 	text-align: center;
+	position: relative;
+	z-index: -2;
 }
 .contacts-items .contacts-top{
 	text-align: center;
@@ -354,11 +460,13 @@ header{
 	font-weight: 400;
 }
 .forms{
-	margin: 0px 300px;
+	/*margin: 0px 300px;*/
 	padding: 30px;
 	padding-bottom: 26px;
 	background: black;
 	position: absolute;
+	left: 30%;
+	top: 75%;
 	z-index: 1!important;
 }
 .forms-item input{
@@ -383,10 +491,15 @@ header{
 	font-size: 14px;
 	font-weight: bold;
 }
+.forms-item .btn-3 button:hover{
+	color: rgba(255, 255, 255, 1);
+  	box-shadow: 0 5px 15px rgb(0,142,214, .4);
+}
+
 
 
 .maps{
-	
+	position: relative;
 	z-index: -99!important;
 }
 
