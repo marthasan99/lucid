@@ -424,8 +424,8 @@ header{
 	padding-bottom: 120px;
 	background: #ededed;
 	text-align: center;
-	position: relative;
-	z-index: -2;
+	/*position: relative;*/
+	z-index: -99!important;
 }
 .contacts-items .contacts-top{
 	text-align: center;
@@ -462,29 +462,32 @@ header{
 .forms{
 	width: 70%;
 	margin: 0px auto;
+	margin-top: -200px;
 	padding: 30px 20px;
 	background: black;
-	position: absolute;
-	top: 69%;
 	display: flex;
 	justify-content: center;
-	left: 15%;
-	z-index: 9999;
-	overflow: hidden;
+	z-index: 9999!important;
 }
 .forms input{
-	margin: 10px auto;
+	margin-bottom: 14px;
 	background: black;
 	color: grey;
 	width: 100%;
 	overflow: hidden;
+	z-index: 9999 !important;
+	margin-top: 10px;
+}
+.forms input:focus{
+	background: black;
+	color: grey;
 }
 .forms textarea{
 	margin: 10px 0px;
-	padding: 22px 0px;
 	background: black;
 	color: grey;
 	width: 100%;
+	z-index: 9999;
 }
 .forms .btn-3{
 	text-align: right;
@@ -501,7 +504,7 @@ header{
 	font-size: 14px;
 	font-weight: bold;
 }
-.forms-item .btn-3 button:hover{
+.forms .btn-3 button:hover{
 	color: rgba(255, 255, 255, 1);
   	box-shadow: 0 5px 15px rgb(0,142,214, .4);
 }
@@ -509,8 +512,9 @@ header{
 
 
 .maps{
-	position: relative;
 	z-index: -99!important;
+	position: relative;
+	margin-top: -225px;
 }
 
 .footer{
