@@ -470,15 +470,16 @@ header{
 	justify-content: center;
 	left: 15%;
 	z-index: 9999;
+	overflow: hidden;
 }
-.forms-item input{
+.forms input{
 	margin: 10px auto;
 	background: black;
 	color: grey;
 	width: 100%;
 	overflow: hidden;
 }
-.forms-item textarea{
+.forms textarea{
 	margin: 10px 0px;
 	padding: 22px 0px;
 	background: black;
