@@ -486,10 +486,10 @@ header{
 	color: grey;
 	width: 100%;
 }
-.forms-item .btn-3{
+.forms .btn-3{
 	text-align: right;
 }
-.forms-item .btn-3 button{
+.forms .btn-3 button{
 	height: 44px;
 	width: 150px;
 	color: white;
